@@ -13,7 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
       - name: Install dependencies
         run: |
-          pip install sphinx sphinxcontrib-bibtex sphinxcontrib-packages nbsphinx sphinx_rtd_theme myst_parser pandoc
+          pip install sphinx sphinxcontrib-bibtex sphinxcontrib-packages nbsphinx sphinx_rtd_theme myst_parser
+          pip install numpy>=1.20 scipy nbconvert ipython jupyter jupytext pandas matplotlib pandoc pyqt5 sphinx-autobuild sphinx_rtd_theme sphinxcontrib-bibtex sortedcontainers triangle fenics-ufl==2024.2.0 x3d pygmsh
+
       - name: Sphinx build
         run: |
           sphinx-build doc _build
