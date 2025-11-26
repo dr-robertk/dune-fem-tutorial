@@ -28,7 +28,6 @@ This version describes the bindings for the development version
    new implementations of the `Dune`_ grid interface can be easily
    tested. For `Dune-Fem`_ developers, new grid views, discrete function spaces, and
    scheme classes can be added and tested.
-
 4. Older tutorial version `old-tutorial`_
 
 .. _Dune: https://www.dune-project.org
