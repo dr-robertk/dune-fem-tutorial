@@ -16,7 +16,7 @@ This version describes the bindings for the development version
    is used to describe the mathematical
    model, all realizations of the `Dune`_ grid interface can be used to
    work with the domain tessellation, and the finite element spaces,
-   operator, and solvers provided by `Dune-Fem`_ for the discretizations 
+   operator, and solvers provided by `Dune-Fem`_ for the discretizations
    and solving steps. All of this is available to be used in python
    scripts or through Jupyter notebooks.
 2. Rapid prototyping of new methods or other parts of a simulation is easy
@@ -29,6 +29,8 @@ This version describes the bindings for the development version
    tested. For `Dune-Fem`_ developers, new grid views, discrete function spaces, and
    scheme classes can be added and tested.
 
+4. Older tutorial version `old-tutorial`_
+
 .. _Dune: https://www.dune-project.org
 .. _Dune-Python: https://www.dune-project.org/modules/dune-python/
 .. _Dune-Istl: https://www.dune-project.org/modules/dune-istl/
@@ -36,6 +38,7 @@ This version describes the bindings for the development version
 .. _Dune-Vem: https://www.dune-project.org/modules/dune-vem/
 .. _Dune-Fem-Dg: https://www.dune-project.org/modules/dune-fem-dg/
 .. _UFL: https://bitbucket.org/fenics-project/ufl
+.. _old-tutorial: https://dr-robertk.github.io/dune-fem-tutorial/v2.10
 
 ################
 Table of Content
