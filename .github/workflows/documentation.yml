@@ -19,6 +19,7 @@ jobs:
       - name: Sphinx build
         run: |
           sphinx-build doc _build
+          sphinx-build v2.10 _build/v2.10
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
