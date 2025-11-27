@@ -225,6 +225,12 @@ html_show_copyright = True
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'dune-fempydoc'
 
+html_context = {
+    "versions": [
+        ("latest", "/latest/"),
+        ("v2.10", "/v2.10/"),
+    ],
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 
